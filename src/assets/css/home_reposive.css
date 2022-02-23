@@ -1,0 +1,97 @@
+@media (min-width: 576px) {
+  .main .section-4 .slide-item,
+  .main .deals .deals__body .slide-item {
+    min-width: 30%;
+    max-width: 30%; }
+  .product__price {
+    flex-wrap: nowrap; }
+    .product__price-old {
+      margin: 0 6px 0 auto;
+      width: unset; }
+  .footer .footer__form-btn {
+    margin: 0;
+    margin-left: 12px;
+    width: unset;
+    padding: 4px 12px; } }
+
+@media (min-width: 768px) {
+  .header .navbar__search {
+    width: unset;
+    flex: 1; }
+  .main .section-4 .slide,
+  .main .deals .deals__body .slide {
+    overflow: auto; }
+    .main .section-4 .slide .slide-item,
+    .main .deals .deals__body .slide .slide-item {
+      min-width: 28%;
+      max-width: 28%;
+      margin-right: 0; }
+  .main .deals__titel {
+    border-right: 1px solid #ff6600;
+    font-size: 1.8rem;
+    width: unset; }
+  .main .deals__time {
+    width: unset; }
+  .product__name-vn, .product__name-en {
+    height: 1.4rem;
+    line-height: 1.3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; }
+  .product__name-en {
+    display: block; }
+  .product__count {
+    display: flex; }
+  .product__price {
+    flex-wrap: nowrap; }
+    .product__price-old {
+      margin: 0 6px 0 auto;
+      width: unset; }
+    .product__price-sale {
+      display: block; }
+  .main .section-2 .slide {
+    background-color: #fff;
+    overflow: auto; }
+    .main .section-2 .slide .slide-item {
+      min-width: 160px;
+      padding: 12px 6px; }
+      .main .section-2 .slide .slide-item .section__body-img-sub {
+        bottom: 14px; } }
+
+@media (min-width: 992px) {
+  .main .section-4 .slide .slide-item,
+  .main .deals .deals__body .slide .slide-item {
+    min-width: 22%;
+    max-width: 22%; } }
+
+@media (max-width: 576px) {
+  .header .navbar__search-input-type-enter {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+  .main .banner__wrap .banner .slide-item {
+    border-radius: 10px; }
+  .header .navbar__logo-img {
+    max-width: 160px;
+    position: relative;
+    top: -5px; }
+  .header .navbar__menu {
+    width: 40px; }
+  .header .navbar__menu-icon {
+    margin-right: 4px; } }
+
+@media (max-width: 768px) {
+  .main .section .section__header-titel {
+    font-size: 1.6rem; } }
+
+@media (max-width: 992px) {
+  .header .navbar__menu-icon {
+    position: relative;
+    top: 13px;
+    font-size: 4rem; }
+  .main .section-6 .sevice__item .sevice__img {
+    width: 64px; }
+  .main .section-6 .sevice__item-free .sevice__img {
+    width: 94px; }
+  .main .section-6 .sevice__item .sevice__text {
+    display: none; } }
