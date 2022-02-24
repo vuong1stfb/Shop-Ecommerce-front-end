@@ -1,2 +1,3 @@
 # Shop-Ecommerce-front-end
-- Javascript, html, scss BEM Methodology
+- Javascript, html, scss BEM Methodology,bootstrap reponsive
+
